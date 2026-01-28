@@ -1,0 +1,1 @@
+export class ExecoraRouter{route(t){return t.chain.includes('sol')?'solana':'evm';}}

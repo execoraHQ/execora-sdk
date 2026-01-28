@@ -1,0 +1,2 @@
+import {ExecTask,ExecResult} from './types';import {ExecoraRouter} from './router';import {TaskManager} from './tasks';import {executeSolana} from './executor/solana';import {executeEVM} from './executor/evm';
+export class Execora{router=new ExecoraRouter();tasks=new TaskManager();async execute(task:ExecTask):Promise<ExecResult>{const target=this.router.route(task);this.tasks.enqueue(task);const t=this.tasks.next();if(target==='solana')return executeSolana(t);return executeEVM(t);}}

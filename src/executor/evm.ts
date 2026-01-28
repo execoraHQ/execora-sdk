@@ -1,0 +1,1 @@
+import {ExecTask,ExecResult} from '../types';export async function executeEVM(t:ExecTask):Promise<ExecResult>{return{status:'queued',message:`evm ${t.action}`}}

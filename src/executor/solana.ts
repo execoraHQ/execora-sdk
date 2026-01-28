@@ -1,0 +1,1 @@
+import {ExecTask,ExecResult} from '../types';export async function executeSolana(t:ExecTask):Promise<ExecResult>{return{status:'queued',message:`sol ${t.action}`}}

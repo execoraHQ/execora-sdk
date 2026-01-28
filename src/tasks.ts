@@ -1,0 +1,1 @@
+export class TaskManager{queue=[];enqueue(t){this.queue.push(t);}next(){return this.queue.shift();}}
