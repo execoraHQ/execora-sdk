@@ -1,5 +1,5 @@
 # @execora/sdk
-![execora-sdk](assets/icon.jpeg)
+![execora-sdk](background_new.jpeg)
 Execora is an AI-powered execution and automation layer designed to handle on-chain tasks, routing, and scalable utility infrastructure.
 
 his enables bots, agents, infra tools, and utility services to run tasks such as swaps, transfers, stake flows, routing and batch execution.
